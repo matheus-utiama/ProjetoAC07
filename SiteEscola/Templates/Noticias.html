@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  {% load static %}
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Noticias</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css">
+   </head>
+   <body>
+      <div id="geral">
+         <div id="cabecalho">
+            <img id="logotipo" src="{% static 'img/teste_logo.png' %}" alt="Logotipo" style="width:105px;">
+         </div>
+         <div id="subcabecalho">
+            <ul  align="center">
+               <li>
+                  <a href="index">Home</a>
+               </li>
+               <li>
+                  <a href="Noticias">Noticias</a>
+               </li>
+               <li>
+                  <a href="Disciplina">Disciplina</a>
+               </li>
+               <li>
+                  <a href="Lista_De_Cursos">Lista de Cursos</a>
+               </li>
+               <li>
+                  <a href="Detalhe Curso">Detalhes do Curso</a>
+               </li>
+               <li>
+                <a href="Cadastro">Cadastro</a>
+             </li>
+               <li>
+                <a href="Login">Login</a>
+             </li>
+            </ul>
+         </div>
+         <div id="meio">
+            <h1 align="center">
+               <marquee scrollamount="13" width="500" >Incrições Abertas. Matricule-se já!</marquee>
+            </h1>
+         </div>
+         <div id="noticia">
+            <h2>PLANTÃO IMPOSTO DE RENDA PESSOA FÍSICA 2019.</h2>
+            <img src="{% static 'img/ir2019.png'  %}">
+            <br><br><br>
+            <p>Neste ano nossos alunos e professores irão atender pessoas físicas e realizar a sua declaração gratuitamente!</p>
+            <br>          
+            <table id="customers">
+               <tr>
+                  <th>Regras</th>
+               </tr>
+               <tr>
+                  <td>1. Contribuinte com rendimento comprovado em superior a R$ 28.559,70.</td>
+               </tr>
+               <tr>
+                  <td>2. Contribuinte com rendimentos isentos e não tributável superior a R$ 40.000,00</td>
+               </tr>
+               <tr>
+                  <td>3. Contribuinte com receita bruta Rural superior R$ 142.798,50</td>
+               </tr>
+               <tr>
+                  <td>4. Contribuinte que tenha patrimônio superior a R$ 300.000,00.</td>
+               </tr>
+            </table>
+         </div>
+         <div id="rodape">
+            <p><strong>Versão 1.0.0</strong></p>
+         </div>
+      </div>
+   </body>
+</html>

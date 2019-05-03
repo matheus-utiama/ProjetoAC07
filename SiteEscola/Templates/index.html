@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+   <head>	  
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css">
+   </head>
+   <body>
+      <div id="geral">
+       <div id="cabecalho">
+            <img id="logotipo" src="{% static 'img/teste_logo.png' %}" alt="Logotipo" style="width:105px;">
+         </div>
+         <div id="subcabecalho">
+            <ul  align="center">
+               <li>
+                  <a href="index">Home</a>
+               </li>
+               <li>
+                  <a href="Noticias">Noticias</a>
+               </li>
+               <li>
+                  <a href="Disciplina">Disciplina</a>
+               </li>
+               <li>
+                  <a href="Lista_De_Cursos">Lista de Cursos</a>
+               </li>
+               <li>
+                  <a href="Detalhe Curso">Detalhes do Curso</a>
+               </li>
+               <li>
+                <a href="Cadastro">Cadastro</a>
+             </li>
+               <li>
+                <a href="Login">Login</a>
+             </li>
+            </ul>
+         </div>          			 
+				 <div id="meio">
+            <h1 align="center">
+               <marquee scrollamount="13" width="500" >Incrições Abertas. Matricule-se já!</marquee>
+            </h1>
+         </div>
+         <div id="corpo">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/qOylTJ6qHwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <br>
+            <h1>PRÊMIOS E RECONHECIMENTOS</h1>
+            <p>A Faculdade Impacta é altamente reconhecida por sua atuação no mercado da educação, o que comprova o compromisso da Instituição com o ensino de qualidade e a dedicação do Grupo Impacta em transformar a sociedade através da tecnologia. Desta maneira, ao longo dos anos a Faculdade Impacta tem recebido prêmios e reconhecimentos que são resultados do trabalho contínuo de professores e funcionários e da determinação de seus alunos.</p>
+            <br>
+            <br>
+         </div>
+         <div id="rodape">
+            <p><strong>Versão 1.0.0</strong></p>
+         </div>
+      </div>
+   </body>
+</html>

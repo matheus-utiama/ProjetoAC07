@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      {% load static %}
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Login</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css">
+   </head>
+   <body>
+    <div id="geral">
+        <div id="cabecalho">
+           <img id="logotipo" src="{% static 'img/teste_logo.png' %}" alt="Logotipo" style="width:105px;">
+        </div>
+        <div id="subcabecalho">
+                       <ul  align="center">
+               <li>
+                  <a href="index">Home</a>
+               </li>
+               <li>
+                  <a href="Noticias">Noticias</a>
+               </li>
+               <li>
+                  <a href="Disciplina">Disciplina</a>
+               </li>
+               <li>
+                  <a href="Lista_De_Cursos">Lista de Cursos</a>
+               </li>
+               <li>
+                  <a href="Detalhe Curso">Detalhes do Curso</a>
+               </li>
+               <li>
+                <a href="Cadastro">Cadastro</a>
+             </li>
+               <li>
+                <a href="Login">Login</a>
+             </li>
+            </ul>
+        </div>
+<form action="action_page.php">
+<br/>
+<br/>  
+    <div class="container">
+      <label for="uname"><b>Usuario</b></label>
+      <input type="text" placeholder="Usuario" name="uname" required>
+  
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Senha" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember">Lembrar-me</label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancelar</button>
+      <span class="psw"><a href="#">Esqueci minha senha</a></span>
+    </div>
+  </form>
+</body>
+</html>

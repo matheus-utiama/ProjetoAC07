@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      {% load static %}
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Disciplinas</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css">
+   </head>
+   <body>
+      <div id="geral">
+         <div id="cabecalho">
+            <img id="logotipo" src="{% static 'img/teste_logo.png' %}" alt="Logotipo" style="width:105px;">
+         </div>
+         <div id="subcabecalho">
+            <ul  align="center">
+               <li>
+                  <a href="index">Home</a>
+               </li>
+               <li>
+                  <a href="Noticias">Noticias</a>
+               </li>
+               <li>
+                  <a href="Disciplina">Disciplina</a>
+               </li>
+               <li>
+                  <a href="Lista_De_Cursos">Lista de Cursos</a>
+               </li>
+               <li>
+                  <a href="Detalhe Curso">Detalhes do Curso</a>
+               </li>
+               <li>
+                <a href="Cadastro">Cadastro</a>
+             </li>
+               <li>
+                <a href="Login">Login</a>
+             </li>
+            </ul>
+         </div>         <div id="meio">
+            <h1 align="center">
+               <marquee scrollamount="13" width="500" >Incrições Abertas. Matricule-se já!</marquee>
+            </h1>
+         </div>
+         <div id="corpo">
+            <table id="customers">
+               <tr>
+                  <th>Curso</th>
+                  <th>Semestre</th>
+                  <th>Disciplinas</th>
+               </tr>
+               <tr>
+                  <td>Banco de dados</td>
+                  <td>1º Semestre</td>
+                  <td> Comunicação e Expressão<br>
+                     Fundamentos de Banco de Dados<br>
+                     Linguaguem de Programação I<br>
+                     Lógica de Programação<br>
+                     Matemática Aplicada<br>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Banco de dados</td>
+                  <td>2º Semestre</td>
+                  <td>Ambiente de Desenvolvimento e Operação -DevOps<br>
+                     Análise Exploratória de Dados<br>
+                     Desenvolvimento de Sistemas<br>
+                     Engenharia de Software<br>
+                     Gestão de Projeto<br>
+                     Libras<br>
+                     Linguagem SQL<br>
+                     Sociedade e Sustentabilidade<br>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Banco de dados</td>
+                  <td>3º Semestre</td>
+                  <td>Business Intelligence<br>
+                     Data Analytics<br>
+                     Developing Database<br>
+                     Estrutura de Dados<br>
+                     Legislação e Ética<br>
+                     OPE1 - Oficina de Projeto Empresa 1<br>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Banco de dados</td>
+                  <td>4º Semestre</td>
+                  <td>Administração de Banco de Dados<br>
+                     Big Data<br>
+                     Computação Cognitiva<br>
+                     OPE 2 - Oficina Projeto de Empesa 2<br>
+                     Qualidade e Governança de Dados<br>
+                     Segurança de Banco de Dados<br>
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div id="rodape">
+            <p><strong>Versão 1.0.0</strong></p>
+         </div>
+      </div>
+   </body>
+</html>
